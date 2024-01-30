@@ -5,4 +5,4 @@ return "Even";
 else return "Odd";    
 }
 
-console.log(evenOrOdd(3));
+console.log(evenOrOdd(2));
