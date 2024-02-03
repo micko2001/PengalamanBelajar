@@ -3,10 +3,10 @@ function getCount(str) {
   console.log(vw);
   let count=0;
   for(let i=0;i<vw.length;i++){
-    if(vw.at(i)==="a"||"e"||'i'||'u'||'o'){
+    if(vw.at(i)==="a"||vw.at(i)==="e"||vw.at(i)==='i'||vw.at(i)==='u'||vw.at(i)==='o'){
         count+=1;
     }
   }
   return count;
 }
-console.log(getCount("aabracadabra"));
+console.log(getCount("jklaaaa"));
