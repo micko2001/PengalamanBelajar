@@ -19,11 +19,10 @@ arr.sort(function(a,b){
 
 console.log(arr);
 arr.push(3);
-let s=arr.filter(function(x){
-    return x==3;
-})
+let s=arr.filter(function(x){return x!=3;})
+console.log(s);
+console.log(arr);
 let fd= arr.find(function(x){
     return x==3;
 })
-console.log(s);
 console.log(fd);

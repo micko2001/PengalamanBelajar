@@ -1,6 +1,10 @@
 let angkot=[];
 
+//mengurangi penumpang
 const delPassangers=function (penumpang){
+    if(angkot.length==0){
+        return 'angkot masih kosong';
+    }
     for(let i=0; i<angkot.length;i++){
         if(penumpang==angkot[i]){
             angkot[i]=undefined;
@@ -10,7 +14,7 @@ const delPassangers=function (penumpang){
     return `tidak ada nama ${penumpang}`;
 }
 
-//menambah saat ada isi
+//menambah penumpang
 const addPassangers = function(penumpang){
 
     if(angkot.length===0){
