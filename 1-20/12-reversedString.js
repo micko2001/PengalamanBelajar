@@ -5,4 +5,4 @@ const reverseString = function (tx) {
    return [y].concat(reverseString(tx.slice(0, -1))).join('');
 };
 
-console.log(reverseString(''));
+console.log(reverseString('dsb'));

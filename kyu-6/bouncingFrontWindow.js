@@ -6,6 +6,7 @@ function bouncingBall(h,  bounce,  window) {
     }
    
     let seeBall =1;
+    h=(h*bounce);
     while(h>window){
         h=(h*bounce);
         seeBall+=2;
@@ -15,5 +16,5 @@ function bouncingBall(h,  bounce,  window) {
     return seeBall;
   }
 
-  console.log(arr);
-  console.log(bouncingBall(3, 0.6666, 1.5));
+  
+  console.log(bouncingBall(30, 0.6666, 1.5));
