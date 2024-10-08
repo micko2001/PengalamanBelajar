@@ -7,10 +7,10 @@
 //     return result;
 // }
 
-function grow(x)
-{
-    const result = x.reduce((acc,curr)=>acc*curr);
+function grow(x) {
+  const result = x.reduce((acc, curr) => acc * curr);
 
-    return result;
+  return result;
 }
-console.log(grow([2,3,4]));
+console.log(grow([2, 3, 4]));
+console.log(grow([20, 100, 5, 3, 5]));
